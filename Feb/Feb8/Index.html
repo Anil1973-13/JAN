@@ -1,0 +1,78 @@
+<html>
+<title>Geekster</title>
+<head>
+
+</head>
+
+<body>
+    <div style="margin:auto; width: 500px; background-color: blueviolet; margin-top: 10%;color:aliceblue;">
+    <form action="">
+
+        <label>Full Name*</label>
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+        <label>E-Mail*</label>
+        <br />
+        <input type="text" name="name" pattern="^[A-za-z ]*$" required />
+        &emsp; &emsp; &emsp;
+        <input type="email" pattern=".+gmail\.com" name="E-Mail" required />
+        <br /><br /><br />
+        <label>Select Course*</label>
+        <br />
+        <select name="Select Course" required>
+            <option disabled selected>Select Course</option>
+            <option>Full Stack Development</option>
+            <option>Advanced Web Development</option>
+
+        </select>
+        <br /><br /><br />
+        <label>Phone*</label>
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;
+        <label>Highest Degree*</label>
+        <br />
+        <input type="tel" name="number " pattern="[6-9]{1}[0-9]{9}" placeholder="Enter mobile number" required>
+        &emsp; &emsp; &emsp;
+        <select name="Highest degree" required>
+            <option disabled selected> Selected highest degree</option>
+            <option>B.E or B.Tech CS/IT</option>
+            <option>B.E or B.Tech Other</option>
+            <option>M.S or M.Tech CS/IT</option>
+            <option>M.S or M.Tech Other</option>
+            <option>Others</option>
+        </select>
+        <br /><br /><br />
+        <label>Year of Completion*</label>
+        &emsp;&emsp; &emsp; &emsp; &emsp;
+        <label>Programming Skills*</label>
+        <br />
+        <select name="Year" required>
+            <option disabled selected>Select year of completion</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </select>
+        &emsp; &emsp; &emsp;
+        <select name="codinglevel" required>
+            <option disabled selected> Select level of coding</option>
+            <option>No Coding Skills</option>
+            <option>Basic Coding Skills</option>
+            <option>Intermediate Coding Skills</option>
+            <option>Good Coding Skills</option>
+        </select>
+
+        <br /><br />
+        <input type="checkbox" required />By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit
+        technologies Pvt. Ltd)*.
+        <br /><br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="submit" required />
+
+
+    </form>
+
+</div>
+</body>
+
+</html>
