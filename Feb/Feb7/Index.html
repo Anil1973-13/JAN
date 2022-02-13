@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Student Admission Form</title>
+    </head>
+    <body>
+        <h3>Student Admission Form</h3>
+    <form action = "">
+        Student Name:<input name=" Student Name"type = "text"  placeholder="Enter Your Name" pattern="^[A-za-z ]*$" required  />
+        <br/>
+        <br/>
+        <br/>
+
+        Father's Name:<input name="Father's Name" type = "text" placeholder="Enter your Father's Name" pattern="^[A-za-z ]*$" required/>
+        <br/>
+        <br/>
+        <br/>
+        Mother's Name: <input  name="Mother's Name" type="text" placeholder="Enter your Mother's Name" pattern="^[A-za-z ]*$" required/>
+        <br/>
+        <br/>
+        <br/>
+        Date Of Birth: <input type="date" placeholder="Enter your Date of Birth" required/>
+        <br/>
+        <br/>
+        <br/>
+        Mobile Number: <input  type="number" placeholder="Enter your Mobile Number" pattern="[6-9]{1}[0-9]{9}"/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Select Gender</h4>
+            Male <input  name="gender" value="1" checked type="radio" />
+            <br />
+            Female <input type="radio" name="gender" value="2"/>
+            <br />
+            Others <input type="radio" name="gender" value="3" />
+            <br />
+            <br /> 
+       
+        12th Percentage: <input type="number"  min ="60" max="100">
+        <br/>
+        <br/>
+        <br/>
+        10th Percentage:  <input type="number"  min ="60" max="100">
+        <br/>
+        <br/>
+        <br/>
+        Email:<input  type="email" pattern = ".+@gmail\.com"  placeholder="Enter mail"  name="EM" required />
+        <br/>
+        <br/>
+        <br/>
+        <input type="reset" value="Reset"/>
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit" name="Sub" required/>
+
+    </form>
+    
+
+    </body>
+</html>
